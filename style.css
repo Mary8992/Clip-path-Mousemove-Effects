@@ -26,6 +26,11 @@ body {
     -moz-transition: 0.2s;
     -ms-transition: 0.2s;
     -o-transition: 0.2s;
+    clip-path: circle(75px at var(--x) var(--y));
+}
+
+.banner:active {
+    clip-path: circle(400px at var(--x) var(--y));
 }
 
 .content {
